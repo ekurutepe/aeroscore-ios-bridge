@@ -1,0 +1,13 @@
+[package]
+name = "cargo"
+version = "0.1.0"
+authors = ["Engin Kurutepe <engin@kurutepe.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+name = "aeroscore_ios"
+crate-type = ["staticlib"]
+
+[dependencies]
+aeroscore = { git = "https://github.com/Turbo87/aeroscore-rs" }
